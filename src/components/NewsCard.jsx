@@ -32,7 +32,7 @@ const NewsCard = ({
     <Meta title={title} description={shortLink} />
     <div className="mt-4">
       <Button type="primary">
-        <a href={sourceName} target="_blank" rel="noopener noreferrer">
+        <a href={link} target="_blank" rel="noopener noreferrer">
           Read New...
         </a>
       </Button>
