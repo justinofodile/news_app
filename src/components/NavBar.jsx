@@ -13,7 +13,7 @@ const NavBar = () => {
     "Travel",
   ];
   return (
-    <nav className="shadow fixed w-full top-0 left-0">
+    <nav className="shadow fixed w-full top-0 left-0 z-10">
       <div className="flex items-center justify-between gap-4 max-w-5xl mx-auto px-4">
         <div className="flex gap-5 items-center">
           <ClockCircleTwoTone />
